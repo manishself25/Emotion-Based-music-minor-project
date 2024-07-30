@@ -90,7 +90,7 @@ cap.release()
 cv2.destroyAllWindows()
 
 # Set up YouTube Data API
-api_key = 'AIzaSyC_ZRCsiw-2iPtTET5F_j6LJWEB7tkCQ9s'
+api_key = 'AIzaSyC_ZRCsiw-2iPtTET5' # paste your youtube API key
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Get user's mood input
